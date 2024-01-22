@@ -1,3 +1,3 @@
 import chalk from 'chalk';
 
-console.log(chalk.green('Hello world!'), chalk.red("JS!!!"));
+console.log(chalk.green('Hello Peter!'), chalk.red("JS!!!"));
