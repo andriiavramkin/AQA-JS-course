@@ -1,8 +1,4 @@
 {
-  "dependencies": {
-    "chalk": "^5.3.0",
-    "npm": "^10.3.0"
-  },
   "name": "aqa-js-course-1-",
   "description": "Repo for projects on AQA js course",
   "type": "module",
@@ -14,5 +10,6 @@
     "start": "node intro_js/colorPrint"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }
