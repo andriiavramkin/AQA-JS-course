@@ -16,7 +16,7 @@ console.log(hasWon)
 
 const player = null
 const coach1 = undefined
-const coach2 
+let coach2 
 
 console.log(player)
 console.log(coach1)
