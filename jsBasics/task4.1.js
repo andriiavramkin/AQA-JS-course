@@ -1,4 +1,4 @@
-let radius = 10
-let circleArea = Math.round(Math.PI*(radius**2))
+const radius = 10
+const circleArea = (Math.PI*(radius**2)).toFixed(2)
 
 console.log(circleArea)

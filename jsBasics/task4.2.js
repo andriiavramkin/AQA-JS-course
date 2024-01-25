@@ -1,6 +1,6 @@
 const length = 5.2
 const width = 3.8
 
-let rectangleArea = Math.round(length * width)
+const rectangleArea = (length * width).toFixed(2)
 
 console.log(rectangleArea)

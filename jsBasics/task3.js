@@ -1,5 +1,5 @@
-let age = 15
+const age = 15
 
-let isAdult = false
+const isAdult = false
 
 console.log(age, isAdult)

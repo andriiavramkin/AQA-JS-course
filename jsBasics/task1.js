@@ -6,17 +6,17 @@ const SUPER_ADMINT_EMAIL = 'aa@mail.com'
 
 console.log(SUPER_ADMINT_EMAIL)
 
-let year = 1995
+const year = 1995
 
 console.log('Richmond till we die since ' + year)
 
-let hasWon = true
+const hasWon = true
 
 console.log(hasWon)
 
 const player = null
-let coach1 = undefined
-let coach2 
+const coach1 = undefined
+const coach2 
 
 console.log(player)
 console.log(coach1)
