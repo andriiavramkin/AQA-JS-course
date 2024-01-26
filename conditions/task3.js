@@ -4,10 +4,9 @@ const number = 5
 
 console.log('Generation of multiplication table by using For loop')
 
-let result1
 
 for (let i = 0; i<=10; i++) {
-    result1 = number * i
+    let result1 = number * i
     console.log(`${number} * ${i} = ${result1}`)
 }
 
@@ -19,8 +18,10 @@ console.log('Generation of multiplication table by using While loop')
 
 let index = 0
 
+
 while (index <= 10){
-    console.log(`${number} * ${index} = ${number * index}`)
+    let result2 = number * index
+    console.log(`${number} * ${index} = ${result2}`)
 
     index++
 }

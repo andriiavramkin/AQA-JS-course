@@ -1,10 +1,8 @@
-const averageGrade = 85;
+const averageGrade = -10;
 let successLevel;
 
 // made some modification to the original requirememnt to deal with invalid inputs
-if (averageGrade < 0) {
-    successLevel = 'Invalid input. The averageGrade can be only in rage 0 to 100';
-} else if (0 <= averageGrade && averageGrade < 60) {
+if (0 <= averageGrade && averageGrade < 60) {
     successLevel = 'Незадовільно';
 } else if (60 <= averageGrade && averageGrade <= 70) {
     successLevel = 'Задовільно';
