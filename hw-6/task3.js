@@ -1,22 +1,22 @@
 
 const checkOrder = (available, ordered) => {
-    let Message
+    let message
 
     switch (true){
         case available < ordered :
-            Message = "Your order is too large, we don’t have enough goods."
+            message = "Your order is too large, we don’t have enough goods."
         break
         case ordered == 0 :
-            Message = "Your order is empty."
+            message = "Your order is empty."
         break
         case available <= ordered :
-            Message = "Your order is accepted."
+            message = "Your order is accepted."
         break
         default :
-            Message = "Your input is invalid."
+            message = "Your input is invalid."
     }
 
-    return Message
+    return message
 }
 
 console.log(checkOrder(30,55))
