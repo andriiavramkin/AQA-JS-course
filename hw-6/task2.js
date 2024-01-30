@@ -4,8 +4,8 @@ import chalk from 'chalk';
 console.log('solution #1')
 
 function checkIfAdult1 (age) {
-   //  return age >= 18 ? true : false       - use of "tarnarnyj oparator"
-   return age >=18
+   //  return age >= 18 ? true : false     //  - use of "tarnarnyj oparator"
+   return age >= 18
 }
 
 const isAdult = checkIfAdult1(25)
