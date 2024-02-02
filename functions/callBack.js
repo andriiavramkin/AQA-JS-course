@@ -1,13 +1,13 @@
-// // callback function
+// callback function
 
-// function hof (callback) {
-//     console.log('high order function')
-//     callback ()
-// }
+function hof (callback) {
+    console.log('high order function')
+    callback ()
+}
 
-// const sayHello = () => console.log('Hello from Callback')
+const sayHello = () => console.log('Hello from Callback')
 
-// hof(sayHello)
+hof(sayHello)
 
 
 //THIS
