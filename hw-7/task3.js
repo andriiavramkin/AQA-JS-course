@@ -9,7 +9,7 @@ function divide (numerator, denominator) {
         throw new Error("Your input should be a number. Please select another value.")
     } 
 
-        return numerator/denominatorpit add . 
+        return numerator/denominatorpit 
 }
 
 // sample 1
