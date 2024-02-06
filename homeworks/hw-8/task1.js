@@ -7,12 +7,15 @@ let zeroCount = 0
 for (const num of numbers) {
     if (num > 0){
         positiveCount++
+        continue
     }
     if (num < 0){
         negativeCount++
+        continue
     }
     if (num == 0){
         zeroCount++
+        continue
     }
 }
 
