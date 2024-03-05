@@ -49,7 +49,7 @@ export default class Book {
             throw new Error('Error: Publishing year should be in number type')
         } 
             
-        if (value.length !== 4) {
+        if (value.toString().length !== 4) {
             throw new Error('Publishing year should be strictly 4 digits')
         }
 
