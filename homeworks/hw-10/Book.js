@@ -1,75 +1,72 @@
-
 export default class Book {
-    constructor (title, author, year) {
-        this._title = title
-        this._author = author
-        this._year = year
+  constructor(title, author, year) {
+    this._title = title
+    this._author = author
+    this._year = year
+  }
+
+  // task3 getter-setter
+  get title() {
+    return this._title
+  }
+
+  set title(value) {
+    if (typeof value !== "string") {
+      throw new Error("Error: Book's title should be in string type")
     }
 
-
-    // task3 getter-setter
-    get title() {
-        return this._title
+    if (value.length < 3) {
+      throw new Error(" Title length should be at least 3 characters")
     }
 
-    set title(value) {
-        if (typeof value !== 'string') {
-            throw new Error('Error: Book\'s title should be in string type')
-        } 
+    this._title = value
+  }
 
-        if (value.length < 3) {
-            throw new Error(' Title length should be at least 3 characters')
-        }
+  get author() {
+    return this._author
+  }
 
-        this._title = value
+  set author(value) {
+    if (typeof value === "string") {
+      throw new Error("Error: Author's name should be in string type")
     }
 
-    get author() {
-        return this._author
+    if (value.length < 1) {
+      throw new Error(" Author's name should be at least 1 character")
     }
 
-    set author(value) {
-        if (typeof value === 'string') {
-            throw new Error('Error: Author\'s name should be in string type')
-        }
+    this._author = value
+  }
 
-        if (value.length < 1) {
-            throw new Error(' Author\'s name should be at least 1 character')
-        }
+  get year() {
+    return this._year
+  }
 
-        this._author = value
+  set year(value) {
+    if (typeof value !== "number" || isNaN(value)) {
+      throw new Error("Error: Publishing year should be in number type")
     }
 
-    get year() {
-        return this._year
+    if (value.toString().length !== 4) {
+      throw new Error("Publishing year should be strictly 4 digits")
     }
 
-    set year(value) {
-        if (typeof value !== 'number' || isNaN(value)) {
-            throw new Error('Error: Publishing year should be in number type')
-        } 
-            
-        if (value.toString().length !== 4) {
-            throw new Error('Publishing year should be strictly 4 digits')
-        }
+    this._year = value
+  }
 
-        this._year = value
+  //task4
+  static findOldestBook(books) {
+    let oldestBook = books[0]
+
+    for (let i = 1; i < books.length; i++) {
+      if (books[i].year < oldestBook.year) {
+        oldestBook = books[i]
+      }
     }
+    return oldestBook
+  }
 
-    //task4 
-    static findOldestBook (books) {
-        let oldestBook = books[0]
-
-        for (let i = 1; i < books.length; i++) {
-            if (books[i].year < oldestBook.year) {
-                oldestBook = books[i];
-            }
-        }
-        return oldestBook;
-    }
-
-
-    printInfo () {
-        console.log(`Your book is ${this.title} written by ${this.author} at ${this.year}.`)
-    }
+  printInfo() {
+    console.log(`Your book is ${this.title} written by ${this.author} at ${this.year}.`)
+  }
 }

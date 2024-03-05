@@ -1,3 +1,3 @@
-new read me file 
+new read me file
 
 Now I can use git

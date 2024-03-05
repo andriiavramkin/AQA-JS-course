@@ -17,8 +17,6 @@
 // fruits[1] = 'lemon'
 // console.log(fruits)
 
-
-
 // array in array
 // const matrix = [
 //     [
@@ -31,14 +29,10 @@
 
 // console.log(matrix[1][0])
 
-
-
-
-
 //array_ iteration  (FOR ALL cycle)
 
-const fruits = ['apple', 'pineapple', 'banana']
+const fruits = ["apple", "pineapple", "banana"]
 
 for (const fruit of fruits) {
-    console.log(fruit)
+  console.log(fruit)
 }

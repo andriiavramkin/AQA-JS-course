@@ -1,4 +1,3 @@
-
 /*
 //if else   - ecxample 1
 const isMaried = false
@@ -117,14 +116,14 @@ console.log("            ")
 
 let index = 0
 
-while (index < 10){
-    console.log(index)
+while (index < 10) {
+  console.log(index)
 
-    index++
+  index++
 }
 
 // do ..while..
 do {
-    console.log(index)
-    index++
-} while (index<15)
+  console.log(index)
+  index++
+} while (index < 15)

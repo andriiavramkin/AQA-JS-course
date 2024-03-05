@@ -1,4 +1,3 @@
-
 /*
 // my comment
 const name = "Andrii" 
@@ -25,14 +24,12 @@ const isGoodWeather = false
 
 //undefined
 const pet = undefined
-let age 
+let age
 
 console.log("name", pet)
-console.log('age', age)
+console.log("age", age)
 
 const firstName = null
 
 let surname
 const nickname = undefined
-
-

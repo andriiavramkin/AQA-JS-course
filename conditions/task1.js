@@ -1,19 +1,19 @@
-const averageGrade = -10;
-let successLevel;
+const averageGrade = -10
+let successLevel
 
 // made some modification to the original requirememnt to deal with invalid inputs
 if (0 <= averageGrade && averageGrade < 60) {
-    successLevel = 'Незадовільно';
+  successLevel = "Незадовільно"
 } else if (60 <= averageGrade && averageGrade <= 70) {
-    successLevel = 'Задовільно';
+  successLevel = "Задовільно"
 } else if (70 < averageGrade && averageGrade <= 80) {
-    successLevel = 'Добре';
+  successLevel = "Добре"
 } else if (80 < averageGrade && averageGrade <= 90) {
-    successLevel = 'Дуже добре';
+  successLevel = "Дуже добре"
 } else if (90 < averageGrade && averageGrade <= 100) {
-    successLevel = 'Відмінно';
+  successLevel = "Відмінно"
 } else {
-    successLevel = 'Invalid input. The averageGrade can be only in rage 0 to 100';
+  successLevel = "Invalid input. The averageGrade can be only in rage 0 to 100"
 }
 
-console.log(successLevel);
+console.log(successLevel)

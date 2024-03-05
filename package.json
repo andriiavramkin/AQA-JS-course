@@ -5,13 +5,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "colorPrint": "node intro_js/colorPrint.js",
-    "test": "npm run colorPrint",
-    "start": "node intro_js/colorPrint"
+    "prepare": "husky install",
+    "lint": "npx eslint --fix ."
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "husky": "^9.0.11",
     "prettier": "3.2.5"
   }
 }

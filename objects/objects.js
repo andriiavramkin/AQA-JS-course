@@ -12,9 +12,6 @@
 // user.age = user.age + 1
 // console.log(user.age)
 
-
-
-
 // example 2
 
 // const user = {
@@ -30,12 +27,8 @@
 
 //     user.sayHello('Joe')
 
-
 //     delete user.age
 //     console.log(user.age)
 //     console.log(user)
-
-
-
 
 // example 3

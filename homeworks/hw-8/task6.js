@@ -1,4 +1,4 @@
-const numbersList = [1,10,14,2,4,5,43,34]
+const numbersList = [1, 10, 14, 2, 4, 5, 43, 34]
 
 // const copiedList1 = numbersList.slice()
 // console.log(copiedList1)
@@ -16,11 +16,11 @@ const numbersList = [1,10,14,2,4,5,43,34]
 // console.log(copiedList4)
 // console.log('---------------------------')
 
-console.log('Copied array')
+console.log("Copied array")
 const copiedList5 = structuredClone(numbersList)
 console.log(copiedList5)
-console.log('---------------------------')
+console.log("---------------------------")
 
-console.log('Sorted array')
-const sortedList = copiedList5.sort((a, b)=> a - b)
+console.log("Sorted array")
+const sortedList = copiedList5.sort((a, b) => a - b)
 console.log(sortedList)

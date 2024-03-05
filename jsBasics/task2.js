@@ -1,7 +1,6 @@
-
 //Row concalation
-const name1 = 'Peter Jackson'
-const name2 = 'Jack Richer'
+const name1 = "Peter Jackson"
+const name2 = "Jack Richer"
 
 const writers = name1 + ", " + name2
 

@@ -1,4 +1,3 @@
-
 // constructor function returns object always
 // function Person (name, age) {
 //     this.name = name
@@ -16,21 +15,16 @@
 // console.log(user2)
 // user2.sayHello()
 
-
-
-
 // iife  - immedietly invoked Function Expresion
 
-function sayHello(){
-    console.log('hello')
+function sayHello() {
+  console.log("hello")
 }
 
-sayHello()
+sayHello()(
+  // - immedietly invoked Function Expresion
 
-
-// - immedietly invoked Function Expresion
-
-(function sayHello(){
+  function sayHello() {
     console.log(`hello ${name}`)
-}) ('Peter')
-
+  }
+)("Peter")
