@@ -1,0 +1,21 @@
+Напишіть CSS або XPath селектори для доданого файла:
+
+1 - Select the first <h2> element:
+
+//CSS - h2:first-of-type
+//XPath - //h2[1]
+
+2 - Select all list items under the <ul> element with the id "fruits":
+
+//CSS - ul[id = fruits] *   OR ul#fruits *
+//XPath - //ul[@id="fruits"]/*
+
+3 - Select the second <span> element with the class "color" under the <div> with the id "colors"
+
+//CSS - div#colors span.color:nth-of-type(2)
+//XPath - //div[@id="colors"]/span [@class="color"][2]
+
+4 - Select the cell with age of the student named "Alice":
+
+//CSS - #students tr:last-child td:last-child
+//XPath - //table[@id="students"]/tbody/tr/td[text()="Alice"]/following-sibling::td
